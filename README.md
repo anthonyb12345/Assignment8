@@ -76,3 +76,16 @@ Header files (`.h` files) are used to declare the structure of classes and their
   
 - **`swap_departments`**
   - **Description**: Swaps departments between two `Manager` instances.
+
+## Compilation and Execution
+
+To compile the program, use the following command:
+
+```bash
+g++ main.cpp Employee.cpp Manager.cpp Engineer.cpp -o main.exe
+```
+
+To run the program, use the following command:
+```bash
+./main.exe
+```
